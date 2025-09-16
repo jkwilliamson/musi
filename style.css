@@ -1,0 +1,66 @@
+a, body, h1, h2, nav, p  {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+}
+
+a, button, div, h1, h2, input, p {
+  color: #8BE9FD;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.content, nav {
+  background-color: #282A36;
+  padding: 24px;
+}
+
+.note-input, .calc-button {
+  background-color: #44475A;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #232529;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+.content {
+  border-left: 4px solid #8BE9FD;
+  border-radius: 0px 32px 32px 0px;
+  margin: 32px;
+  width: 500px;
+  height: 375px;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.note-input {
+  border: none;
+  margin-right: 5px;
+  width: 30px; 
+  height: 20px;
+  text-align: center;
+}
+
+.calc-button {
+  height: 24px;
+}

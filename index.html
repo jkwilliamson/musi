@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>musi</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open Sans'>
+  </head>
+
+  <body>
+    <nav id="homebar">
+      <h1>
+        <a id="home" href="index.html">musi</a>
+      </h1>
+    </nav>
+
+    <div id="interval-calculator" class="content">
+      <div id="interval-input">
+        <h2>Identify Interval</h2>
+        <p style="font-size: 15px">Allowed accidentals: b, #, bb, *, ##</p>
+        <input type="text" id="top-note-input" class="note-input" maxLength="3"/>Top Note<br>
+        <input type="text" id="bottom-note-input" class="note-input" maxLength="3"/>Bottom Note<br>
+        <button type="button" id="identify-button" class="calc-button">Identify</button>
+        <button type="button" id="clear-button" class="calc-button">Clear</button>
+      </div>
+      
+      <div id="interval-output">
+        <div id="interval-text-output" style="display:none">
+          
+        </div>
+        <div id="interval-vex-output" style="width: 250px; height: 150px; display:none; background-color: #8BE9FD; border-radius: 4px">
+
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
